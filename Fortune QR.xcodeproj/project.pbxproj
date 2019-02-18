@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40003C752205419F00802840 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40003C742205419F00802840 /* Reachability.swift */; };
+		40003C772205F92500802840 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40003C762205F92500802840 /* QRViewController.swift */; };
+		4060A6C522035838000FF835 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4060A6C422035838000FF835 /* GoogleService-Info.plist */; };
+		4060A6C722036304000FF835 /* Private Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060A6C622036304000FF835 /* Private Variables.swift */; };
+		4063FEEF220195D500AB6551 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063FEEE220195D500AB6551 /* UserModel.swift */; };
+		40B013EC22040D8200776BA8 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B013EB22040D8200776BA8 /* MainPageViewController.swift */; };
+		40B013EE22040E0600776BA8 /* StartLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B013ED22040E0600776BA8 /* StartLoginViewController.swift */; };
+		40B013F422046C9000776BA8 /* Class+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B013F322046C9000776BA8 /* Class+Helpers.swift */; };
+		40B013F7220497BC00776BA8 /* RegNoFillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B013F6220497BC00776BA8 /* RegNoFillViewController.swift */; };
+		40B0141722049CBA00776BA8 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013F922049CB800776BA8 /* SF-Pro-Display-Light.otf */; };
+		40B0141822049CBA00776BA8 /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013FA22049CB800776BA8 /* SF-Pro-Text-HeavyItalic.otf */; };
+		40B0141922049CBA00776BA8 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013FB22049CB800776BA8 /* SF-Pro-Display-BoldItalic.otf */; };
+		40B0141A22049CBA00776BA8 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013FC22049CB800776BA8 /* SF-Pro-Display-BlackItalic.otf */; };
+		40B0141B22049CBA00776BA8 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013FD22049CB800776BA8 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		40B0141C22049CBA00776BA8 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013FE22049CB800776BA8 /* SF-Pro-Text-Heavy.otf */; };
+		40B0141D22049CBA00776BA8 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B013FF22049CB800776BA8 /* SF-Pro-Display-RegularItalic.otf */; };
+		40B0141E22049CBA00776BA8 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140022049CB800776BA8 /* SF-Pro-Display-HeavyItalic.otf */; };
+		40B0141F22049CBA00776BA8 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140122049CB800776BA8 /* SF-Pro-Display-Regular.otf */; };
+		40B0142022049CBA00776BA8 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140222049CB800776BA8 /* SF-Pro-Display-ThinItalic.otf */; };
+		40B0142122049CBA00776BA8 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140322049CB800776BA8 /* SF-Pro-Display-Ultralight.otf */; };
+		40B0142222049CBA00776BA8 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140422049CB800776BA8 /* SF-Pro-Display-LightItalic.otf */; };
+		40B0142322049CBA00776BA8 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140522049CB800776BA8 /* SF-Pro-Text-Bold.otf */; };
+		40B0142422049CBA00776BA8 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140622049CB800776BA8 /* SF-Pro-Text-LightItalic.otf */; };
+		40B0142522049CBA00776BA8 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140722049CB800776BA8 /* SF-Pro-Text-Regular.otf */; };
+		40B0142622049CBA00776BA8 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140822049CB800776BA8 /* SF-Pro-Display-Thin.otf */; };
+		40B0142722049CBA00776BA8 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140922049CB900776BA8 /* SF-Pro-Text-Medium.otf */; };
+		40B0142822049CBA00776BA8 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140A22049CB900776BA8 /* SF-Pro-Display-UltralightItalic.otf */; };
+		40B0142922049CBA00776BA8 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140B22049CB900776BA8 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		40B0142A22049CBA00776BA8 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140C22049CB900776BA8 /* SF-Pro-Text-Light.otf */; };
+		40B0142B22049CBA00776BA8 /* SF-Pro-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140D22049CB900776BA8 /* SF-Pro-Text-MediumItalic.otf */; };
+		40B0142C22049CBA00776BA8 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140E22049CB900776BA8 /* SF-Pro-Text-Semibold.otf */; };
+		40B0142D22049CBA00776BA8 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0140F22049CB900776BA8 /* SF-Pro-Display-Semibold.otf */; };
+		40B0142E22049CBA00776BA8 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141022049CB900776BA8 /* SF-Pro-Display-MediumItalic.otf */; };
+		40B0142F22049CBA00776BA8 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141122049CB900776BA8 /* SF-Pro-Display-Heavy.otf */; };
+		40B0143022049CBA00776BA8 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141222049CB900776BA8 /* SF-Pro-Display-Medium.otf */; };
+		40B0143122049CBA00776BA8 /* SF-Pro-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141322049CB900776BA8 /* SF-Pro-Text-BoldItalic.otf */; };
+		40B0143222049CBA00776BA8 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141422049CB900776BA8 /* SF-Pro-Display-Black.otf */; };
+		40B0143322049CBA00776BA8 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141522049CB900776BA8 /* SF-Pro-Display-Bold.otf */; };
+		40B0143422049CBA00776BA8 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40B0141622049CBA00776BA8 /* SF-Pro-Text-RegularItalic.otf */; };
+		40B014362204B05100776BA8 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B014352204B05100776BA8 /* Validator.swift */; };
+		40EB735422107C510029C105 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EB735322107C510029C105 /* AboutUsViewController.swift */; };
+		40EFC29E220189C80005FE5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFC29D220189C80005FE5B /* AppDelegate.swift */; };
+		40EFC2A0220189C80005FE5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFC29F220189C80005FE5B /* ViewController.swift */; };
+		40EFC2A3220189C80005FE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EFC2A1220189C80005FE5B /* Main.storyboard */; };
+		40EFC2A5220189CA0005FE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EFC2A4220189CA0005FE5B /* Assets.xcassets */; };
+		40EFC2A8220189CA0005FE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EFC2A6220189CA0005FE5B /* LaunchScreen.storyboard */; };
+		52E0025A47D3112324B69947 /* Pods_Fortune_QR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1462733DE54622B3EB18FA1C /* Pods_Fortune_QR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1462733DE54622B3EB18FA1C /* Pods_Fortune_QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortune_QR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40003C742205419F00802840 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		40003C762205F92500802840 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		4060A6C422035838000FF835 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4060A6C622036304000FF835 /* Private Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Private Variables.swift"; sourceTree = "<group>"; };
+		4063FEEE220195D500AB6551 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		40B013EB22040D8200776BA8 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		40B013ED22040E0600776BA8 /* StartLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartLoginViewController.swift; sourceTree = "<group>"; };
+		40B013F322046C9000776BA8 /* Class+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Helpers.swift"; sourceTree = "<group>"; };
+		40B013F6220497BC00776BA8 /* RegNoFillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegNoFillViewController.swift; sourceTree = "<group>"; };
+		40B013F922049CB800776BA8 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		40B013FA22049CB800776BA8 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		40B013FB22049CB800776BA8 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		40B013FC22049CB800776BA8 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		40B013FD22049CB800776BA8 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		40B013FE22049CB800776BA8 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		40B013FF22049CB800776BA8 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		40B0140022049CB800776BA8 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		40B0140122049CB800776BA8 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		40B0140222049CB800776BA8 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		40B0140322049CB800776BA8 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		40B0140422049CB800776BA8 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		40B0140522049CB800776BA8 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		40B0140622049CB800776BA8 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		40B0140722049CB800776BA8 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		40B0140822049CB800776BA8 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		40B0140922049CB900776BA8 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		40B0140A22049CB900776BA8 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		40B0140B22049CB900776BA8 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		40B0140C22049CB900776BA8 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		40B0140D22049CB900776BA8 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		40B0140E22049CB900776BA8 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		40B0140F22049CB900776BA8 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		40B0141022049CB900776BA8 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		40B0141122049CB900776BA8 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		40B0141222049CB900776BA8 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		40B0141322049CB900776BA8 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		40B0141422049CB900776BA8 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		40B0141522049CB900776BA8 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		40B0141622049CBA00776BA8 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		40B014352204B05100776BA8 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		40EB735322107C510029C105 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		40EFC29A220189C80005FE5B /* Fortune QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EFC29D220189C80005FE5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40EFC29F220189C80005FE5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40EFC2A2220189C80005FE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40EFC2A4220189CA0005FE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EFC2A7220189CA0005FE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40EFC2A9220189CA0005FE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A97BD7AD12C6DF85C1EEFBB /* Pods-Fortune QR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortune QR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fortune QR/Pods-Fortune QR.debug.xcconfig"; sourceTree = "<group>"; };
+		FBA7364696F817ABBBA26FD1 /* Pods-Fortune QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortune QR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fortune QR/Pods-Fortune QR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EFC297220189C80005FE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E0025A47D3112324B69947 /* Pods_Fortune_QR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4063FEEB2201959E00AB6551 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40EB735222107C340029C105 /* End module */,
+				40B014372204BAB400776BA8 /* QR module */,
+				40B013F52204979F00776BA8 /* Registration module */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4063FEEC220195AD00AB6551 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40EFC2A1220189C80005FE5B /* Main.storyboard */,
+				40EFC2A6220189CA0005FE5B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4063FEED220195B300AB6551 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40EFC29D220189C80005FE5B /* AppDelegate.swift */,
+				4060A6C622036304000FF835 /* Private Variables.swift */,
+				40B013F322046C9000776BA8 /* Class+Helpers.swift */,
+				40B014352204B05100776BA8 /* Validator.swift */,
+				40003C742205419F00802840 /* Reachability.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4063FEF0220195D900AB6551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4063FEEE220195D500AB6551 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40B013F52204979F00776BA8 /* Registration module */ = {
+			isa = PBXGroup;
+			children = (
+				40B013ED22040E0600776BA8 /* StartLoginViewController.swift */,
+				40B013F6220497BC00776BA8 /* RegNoFillViewController.swift */,
+			);
+			path = "Registration module";
+			sourceTree = "<group>";
+		};
+		40B013F822049C9C00776BA8 /* Fonts-new */ = {
+			isa = PBXGroup;
+			children = (
+				40B0141422049CB900776BA8 /* SF-Pro-Display-Black.otf */,
+				40B013FC22049CB800776BA8 /* SF-Pro-Display-BlackItalic.otf */,
+				40B0141522049CB900776BA8 /* SF-Pro-Display-Bold.otf */,
+				40B013FB22049CB800776BA8 /* SF-Pro-Display-BoldItalic.otf */,
+				40B0141122049CB900776BA8 /* SF-Pro-Display-Heavy.otf */,
+				40B0140022049CB800776BA8 /* SF-Pro-Display-HeavyItalic.otf */,
+				40B013F922049CB800776BA8 /* SF-Pro-Display-Light.otf */,
+				40B0140422049CB800776BA8 /* SF-Pro-Display-LightItalic.otf */,
+				40B0141222049CB900776BA8 /* SF-Pro-Display-Medium.otf */,
+				40B0141022049CB900776BA8 /* SF-Pro-Display-MediumItalic.otf */,
+				40B0140122049CB800776BA8 /* SF-Pro-Display-Regular.otf */,
+				40B013FF22049CB800776BA8 /* SF-Pro-Display-RegularItalic.otf */,
+				40B0140F22049CB900776BA8 /* SF-Pro-Display-Semibold.otf */,
+				40B0140B22049CB900776BA8 /* SF-Pro-Display-SemiboldItalic.otf */,
+				40B0140822049CB800776BA8 /* SF-Pro-Display-Thin.otf */,
+				40B0140222049CB800776BA8 /* SF-Pro-Display-ThinItalic.otf */,
+				40B0140322049CB800776BA8 /* SF-Pro-Display-Ultralight.otf */,
+				40B0140A22049CB900776BA8 /* SF-Pro-Display-UltralightItalic.otf */,
+				40B0140522049CB800776BA8 /* SF-Pro-Text-Bold.otf */,
+				40B0141322049CB900776BA8 /* SF-Pro-Text-BoldItalic.otf */,
+				40B013FE22049CB800776BA8 /* SF-Pro-Text-Heavy.otf */,
+				40B013FA22049CB800776BA8 /* SF-Pro-Text-HeavyItalic.otf */,
+				40B0140C22049CB900776BA8 /* SF-Pro-Text-Light.otf */,
+				40B0140622049CB800776BA8 /* SF-Pro-Text-LightItalic.otf */,
+				40B0140922049CB900776BA8 /* SF-Pro-Text-Medium.otf */,
+				40B0140D22049CB900776BA8 /* SF-Pro-Text-MediumItalic.otf */,
+				40B0140722049CB800776BA8 /* SF-Pro-Text-Regular.otf */,
+				40B0141622049CBA00776BA8 /* SF-Pro-Text-RegularItalic.otf */,
+				40B0140E22049CB900776BA8 /* SF-Pro-Text-Semibold.otf */,
+				40B013FD22049CB800776BA8 /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			name = "Fonts-new";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		40B014372204BAB400776BA8 /* QR module */ = {
+			isa = PBXGroup;
+			children = (
+				40B013EB22040D8200776BA8 /* MainPageViewController.swift */,
+				40003C762205F92500802840 /* QRViewController.swift */,
+			);
+			path = "QR module";
+			sourceTree = "<group>";
+		};
+		40EB735222107C340029C105 /* End module */ = {
+			isa = PBXGroup;
+			children = (
+				40EFC29F220189C80005FE5B /* ViewController.swift */,
+				40EB735322107C510029C105 /* AboutUsViewController.swift */,
+			);
+			path = "End module";
+			sourceTree = "<group>";
+		};
+		40EFC291220189C80005FE5B = {
+			isa = PBXGroup;
+			children = (
+				40EFC29C220189C80005FE5B /* Fortune QR */,
+				40EFC29B220189C80005FE5B /* Products */,
+				5743941855AB62F95858D15E /* Pods */,
+				9B199CD3CFD124940B11A21C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40EFC29B220189C80005FE5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EFC29A220189C80005FE5B /* Fortune QR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EFC29C220189C80005FE5B /* Fortune QR */ = {
+			isa = PBXGroup;
+			children = (
+				40B013F822049C9C00776BA8 /* Fonts-new */,
+				4060A6C422035838000FF835 /* GoogleService-Info.plist */,
+				4063FEED220195B300AB6551 /* Services */,
+				4063FEF0220195D900AB6551 /* Model */,
+				4063FEEC220195AD00AB6551 /* Views */,
+				4063FEEB2201959E00AB6551 /* Controllers */,
+				40EFC2A4220189CA0005FE5B /* Assets.xcassets */,
+				40EFC2A9220189CA0005FE5B /* Info.plist */,
+			);
+			path = "Fortune QR";
+			sourceTree = "<group>";
+		};
+		5743941855AB62F95858D15E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A97BD7AD12C6DF85C1EEFBB /* Pods-Fortune QR.debug.xcconfig */,
+				FBA7364696F817ABBBA26FD1 /* Pods-Fortune QR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B199CD3CFD124940B11A21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1462733DE54622B3EB18FA1C /* Pods_Fortune_QR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EFC299220189C80005FE5B /* Fortune QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EFC2AC220189CA0005FE5B /* Build configuration list for PBXNativeTarget "Fortune QR" */;
+			buildPhases = (
+				C1A44BEAAA728E999630EA56 /* [CP] Check Pods Manifest.lock */,
+				40EFC296220189C80005FE5B /* Sources */,
+				40EFC297220189C80005FE5B /* Frameworks */,
+				40EFC298220189C80005FE5B /* Resources */,
+				7D68D4C14795F6892DFE8413 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fortune QR";
+			productName = "Fortune QR";
+			productReference = 40EFC29A220189C80005FE5B /* Fortune QR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EFC292220189C80005FE5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sarvad shetty";
+				TargetAttributes = {
+					40EFC299220189C80005FE5B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 40EFC295220189C80005FE5B /* Build configuration list for PBXProject "Fortune QR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EFC291220189C80005FE5B;
+			productRefGroup = 40EFC29B220189C80005FE5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EFC299220189C80005FE5B /* Fortune QR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EFC298220189C80005FE5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EFC2A8220189CA0005FE5B /* LaunchScreen.storyboard in Resources */,
+				40B0141E22049CBA00776BA8 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				40B0141922049CBA00776BA8 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				40B0141C22049CBA00776BA8 /* SF-Pro-Text-Heavy.otf in Resources */,
+				4060A6C522035838000FF835 /* GoogleService-Info.plist in Resources */,
+				40B0142C22049CBA00776BA8 /* SF-Pro-Text-Semibold.otf in Resources */,
+				40B0142522049CBA00776BA8 /* SF-Pro-Text-Regular.otf in Resources */,
+				40B0141B22049CBA00776BA8 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				40B0142E22049CBA00776BA8 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				40B0141A22049CBA00776BA8 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				40B0142F22049CBA00776BA8 /* SF-Pro-Display-Heavy.otf in Resources */,
+				40B0142322049CBA00776BA8 /* SF-Pro-Text-Bold.otf in Resources */,
+				40EFC2A5220189CA0005FE5B /* Assets.xcassets in Resources */,
+				40B0143322049CBA00776BA8 /* SF-Pro-Display-Bold.otf in Resources */,
+				40B0142822049CBA00776BA8 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				40B0141D22049CBA00776BA8 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				40B0141822049CBA00776BA8 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
+				40B0142B22049CBA00776BA8 /* SF-Pro-Text-MediumItalic.otf in Resources */,
+				40B0142A22049CBA00776BA8 /* SF-Pro-Text-Light.otf in Resources */,
+				40B0142422049CBA00776BA8 /* SF-Pro-Text-LightItalic.otf in Resources */,
+				40B0142622049CBA00776BA8 /* SF-Pro-Display-Thin.otf in Resources */,
+				40B0142122049CBA00776BA8 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				40B0142722049CBA00776BA8 /* SF-Pro-Text-Medium.otf in Resources */,
+				40B0141722049CBA00776BA8 /* SF-Pro-Display-Light.otf in Resources */,
+				40B0141F22049CBA00776BA8 /* SF-Pro-Display-Regular.otf in Resources */,
+				40B0142922049CBA00776BA8 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				40B0143222049CBA00776BA8 /* SF-Pro-Display-Black.otf in Resources */,
+				40B0142D22049CBA00776BA8 /* SF-Pro-Display-Semibold.otf in Resources */,
+				40B0143022049CBA00776BA8 /* SF-Pro-Display-Medium.otf in Resources */,
+				40B0142022049CBA00776BA8 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				40B0142222049CBA00776BA8 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				40B0143422049CBA00776BA8 /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				40B0143122049CBA00776BA8 /* SF-Pro-Text-BoldItalic.otf in Resources */,
+				40EFC2A3220189C80005FE5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D68D4C14795F6892DFE8413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fortune QR/Pods-Fortune QR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BRYXBanner/BRYXBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRYXBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fortune QR/Pods-Fortune QR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A44BEAAA728E999630EA56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fortune QR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EFC296220189C80005FE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B013EC22040D8200776BA8 /* MainPageViewController.swift in Sources */,
+				40B014362204B05100776BA8 /* Validator.swift in Sources */,
+				40B013F7220497BC00776BA8 /* RegNoFillViewController.swift in Sources */,
+				40B013F422046C9000776BA8 /* Class+Helpers.swift in Sources */,
+				40EB735422107C510029C105 /* AboutUsViewController.swift in Sources */,
+				40B013EE22040E0600776BA8 /* StartLoginViewController.swift in Sources */,
+				40003C772205F92500802840 /* QRViewController.swift in Sources */,
+				40EFC2A0220189C80005FE5B /* ViewController.swift in Sources */,
+				4063FEEF220195D500AB6551 /* UserModel.swift in Sources */,
+				4060A6C722036304000FF835 /* Private Variables.swift in Sources */,
+				40003C752205419F00802840 /* Reachability.swift in Sources */,
+				40EFC29E220189C80005FE5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40EFC2A1220189C80005FE5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EFC2A2220189C80005FE5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40EFC2A6220189CA0005FE5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EFC2A7220189CA0005FE5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EFC2AA220189CA0005FE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EFC2AB220189CA0005FE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40EFC2AD220189CA0005FE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A97BD7AD12C6DF85C1EEFBB /* Pods-Fortune QR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4FDL334LZ;
+				INFOPLIST_FILE = "Fortune QR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sarvad-Shetty.FortuneQR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40EFC2AE220189CA0005FE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA7364696F817ABBBA26FD1 /* Pods-Fortune QR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4FDL334LZ;
+				INFOPLIST_FILE = "Fortune QR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sarvad-Shetty.FortuneQR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EFC295220189C80005FE5B /* Build configuration list for PBXProject "Fortune QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EFC2AA220189CA0005FE5B /* Debug */,
+				40EFC2AB220189CA0005FE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EFC2AC220189CA0005FE5B /* Build configuration list for PBXNativeTarget "Fortune QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EFC2AD220189CA0005FE5B /* Debug */,
+				40EFC2AE220189CA0005FE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EFC292220189C80005FE5B /* Project object */;
+}

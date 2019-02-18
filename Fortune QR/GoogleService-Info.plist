@@ -23,18 +23,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>fortune-qr-f009f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:653390326324:ios:4eb1e5322bdd1e6c</string>
 	<key>DATABASE_URL</key>
-	<string>https://fortune-qr-f009f.firebaseio.com</string>
+	<string>nil</string>
 </dict>
 </plist>
